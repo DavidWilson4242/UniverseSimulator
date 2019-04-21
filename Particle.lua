@@ -11,7 +11,7 @@ function Particle:new(x, y, mass, f)
     local self = setmetatable({}, {__index = Particle})
     self.px = x
     self.py = y
-    self.vx = 0.1
+    self.vx = 0
     self.vy = 0 
     self.ax = 0
     self.ay = 0
